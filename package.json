@@ -9,8 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "googleapis": "^105.0.0",
+    "printjs": "^1.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-to-print": "^2.14.7"
   },
   "devDependencies": {
     "@types/react": "^18.0.15",
