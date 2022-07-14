@@ -31,7 +31,7 @@ export const ShipmentManifest = () => {
                         <tr>
                             <th>№</th>
                             <th>КОД</th>
-                            <th>Наименование</th>
+                            <th style={{width: '20em'}}>Наименование</th>
                             <th>Вид</th>
                             <th>Дъл-<br/>жина</th>
                             <th>Ши-<br/>рина</th>

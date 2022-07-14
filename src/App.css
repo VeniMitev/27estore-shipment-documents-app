@@ -11,17 +11,32 @@ div.content {
 table {
   margin: auto;
   margin-top: 2em;
-  width: 100%;
   border-collapse: collapse;
   font-size: 0.7rem;
 }
 
 table tr th {
-  font-weight: 300;
   padding: 1em;
+  font-weight: 300;
   background-color: rgb(245, 211, 148);
   border: 1px solid;
   
+}
+
+table tr th:nth-of-type(3) {
+  width: 20em; 
+}
+
+table tr th:nth-of-type(10), table tr th:nth-of-type(11), table tr th:nth-of-type(12) {
+  background-color: rgb(249, 162, 80);
+}
+
+table tr td:nth-of-type(8) {
+  background-color: rgb(245, 211, 148);
+}
+
+table tr td:nth-of-type(10) {
+  background-color: rgb(249, 162, 80);
 }
 
 table tr td {
